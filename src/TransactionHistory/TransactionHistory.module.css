@@ -1,0 +1,19 @@
+.transactionsTable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.transactionTitle {
+  background-color: darkslategray;
+  color: whitesmoke;
+  min-width: 250px;
+  padding: 8px;
+}
+.tableItem {
+  min-width: 250px;
+  border: 4px solid #ccc;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
